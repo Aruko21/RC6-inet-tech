@@ -1,0 +1,62 @@
+.card_description {
+    font-size: 14px;
+    color: #373d3e;
+}
+
+.card_sidebar {
+    margin-left: auto;
+    margin-right: 0;
+    padding-left: 8px;
+}
+
+.card_sidebar .sidebar_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar_row:not(:first-child) {
+    margin-top: 4px;
+}
+
+.sidebar_icon {
+    opacity: 0.7;
+    transition: opacity 0.2s ease-out;
+}
+
+.sidebar_icon:hover {
+    opacity: 1;
+}
+
+.sidebar_icon:not(:first-child) {
+    margin-left: 4px;
+}
+
+.icon_remove {
+    background-image: url("../vendor/icons/delete-button.svg");
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.icon_edit {
+    background-image: url("../vendor/icons/edit.svg");
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.icon_l_arrow {
+    background-image: url("../vendor/icons/left-arrow.svg");
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.icon_r_arrow {
+    background-image: url("../vendor/icons/right-arrow.svg");
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+}

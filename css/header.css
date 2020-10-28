@@ -1,0 +1,40 @@
+.header_wrapper {
+    margin: 0;
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 1px 0px #3e3e3e;
+}
+
+.header_logo {
+    margin: 0px 16px;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.header_profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile_name {
+    margin: 0px 6px;
+    font-size: 28px;
+    letter-spacing: 0.05em;
+}
+
+.profile_avatar {
+    /*vertical-align: middle;*/
+    margin-left: 8px;
+    margin-right: 16px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+    border: 2px solid #c2c2d6;
+    opacity: 1;
+}

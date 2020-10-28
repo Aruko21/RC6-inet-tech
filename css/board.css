@@ -1,0 +1,24 @@
+.board_wrapper {
+    margin: 0;
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /*justify-content: space-between;*/
+    align-items: flex-start;
+}
+
+.board_item {
+    margin: 8px 16px;
+    border-radius: 10px;
+    min-height: 40px;
+    width: calc(100% * (1/4) - 32px);
+    /*flex-basis: 20%;*/
+    background: linear-gradient(150deg, rgba(90,144,198,0.7) 0%, rgba(94,183,199,0.7) 50%, rgba(103,209,212,0.7) 100%);
+    box-shadow: 1px 2px 2px 0px #454545;
+}
+
+.board_item__inactive {
+    background: linear-gradient(150deg, rgba(90,144,198,0.4) 0%, rgba(94,183,199,0.4) 50%, rgba(103,209,212,0.4) 100%);
+}
