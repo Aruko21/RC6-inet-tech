@@ -1,3 +1,22 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 8px 0px;
+    padding: 8px 8px;
+    min-height: 20px;
+    background: rgba(94,125,199,0.7);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px 0px #5a5a5a;
+    transition: all 0.2s ease-out;
+}
+
+.card:hover {
+    background: rgba(94,125,199,1);
+    border: 2px solid #284c91;
+}
+
 .card_description {
     font-size: 14px;
     color: #373d3e;
@@ -32,6 +51,15 @@
 .sidebar_icon:not(:first-child) {
     margin-left: 4px;
 }
+
+.board_item:first-child .icon_l_arrow {
+    display: none;
+}
+
+.board_item:nth-last-child(2) .icon_r_arrow {
+    display: none;
+}
+
 
 .icon_remove {
     background-image: url("../vendor/icons/delete-button.svg");
